@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QRBarcode</string>
+    <string name="scan_qr_code">scan_qr_code</string>
+    <string name="nama">Nama</string>
+    <string name="Sud_Ulam_Cahyana">Sud Ulam Cahyana</string>
+    <string name="kelas">Kelas</string>
+    <string name="ti_21_c4">TI 21 C4</string>
+    <string name="nim">Nomor Induk Mahasiswa</string>
+    <string name="_312110246">312110246</string>
+</resources>
