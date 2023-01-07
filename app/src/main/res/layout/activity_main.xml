@@ -93,7 +93,7 @@
             android:text="@string/nim"
             android:textAlignment="center"
             android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textViewNIM"

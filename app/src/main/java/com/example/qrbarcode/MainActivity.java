@@ -56,6 +56,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent visitUrl = new Intent(Intent.ACTION_VIEW, Uri.parse(result.getContents()));
                 startActivity(visitUrl);
             }
+            else if (result.getContents().startsWith("geo:")) {
+                String geoUri = result.getContents();
+                Intent geoIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(geoUri));
+                startActivity(geoIntent);
+            }
+
             else {
                 // JSON
                 try {
